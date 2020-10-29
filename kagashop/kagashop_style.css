@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Chilanka', cursive;
+}
+/* ------------------menu------------------ */
+.header{
+    background: radial-gradient(#fff, rgb(32, 81, 138));
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.navbar img{
+    padding: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    font-size: 25px;
+}
+.logo i{
+    color: rgb(19, 43, 151);
+}
+.icons{
+    display: flex;
+}
+#toggle{
+    color: rgb(29, 28, 43);
+    visibility: hidden;
+}
+/* ------------------intro------------------ */
+.container{
+    margin: auto;
+    padding: 0 25px 0 25px;
+}
+.intro-con{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intro-cmt{
+    flex-basis: 50%;
+    min-width: 100px;
+    line-height: 2;
+    text-align: right;
+}
+.intro-cmt img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.intro-cmt h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+/* ------------------account------------------ */
+.account-header{
+    background: radial-gradient(#fff,#fcbebe);
+}
+.account-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.account-col{
+    flex-basis: 50%;
+    min-width: 100px;
+}
+.account-col img{
+    max-width: 100%;
+    padding: 50px 0;
+    /* border-radius: 20px; */
+}
+.form-container{
+    background: white;
+    width: 90%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px; 
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.btn{
+    display: inline-block;
+    background-color: tan;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 25px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background-color: rgb(122, 55, 21);
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border:  1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#Loginform{
+    left: -300px;
+}
+#Regform{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+/* ------------------hot item------------------ */
+h2{
+    padding: 50px;
+}
+.hot-con{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.hot-row{
+    flex-basis: 20%;
+    min-width: 200px;
+    transition: transform 0.5s;
+}
+.hot-row img{
+    width: 100%;
+    cursor: pointer;
+}
+.hot-row:hover{
+    transform: translateY(-5px);
+}
+/* -----------------brands----------------- */
+.brands-con{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.brands-row{
+    width: 130px;
+    padding: 5px;
+}
+.brands-row img{
+    width: 100%;
+    cursor: pointer;
+}
+/* -----------------footer----------------- */
+.footer{
+    background-color: slategray;
+    color: white;
+}
+.footer-con{
+    padding: 30px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    text-align: right;
+}
+/* -----------------product detail----------------- */
+.container-detail{
+    padding: 20px;
+}
+/* .container-detail .detail-col img{
+    padding: 0;
+} */
+.container-detail .detail-col{
+    padding: 20px;
+}
+.container-detail h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.container-detail select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.container-detail input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+}
+.detail-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.detail-col{
+    flex-basis: 50%;
+    min-width: 100px;
+}
+.detail-col img{
+    max-width: 100%;
+    border-radius: 20px;
+    /* padding: 30px; */
+}
+.detail-col p{
+    font-size: 20px;
+}
+.detail-col h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+input:focus{
+    outline: none;
+}
+.detail-col .fa{
+    color: #da2c15;
+    margin-left: 10px;
+}
+.detail-col .exp{
+    font-size: 15px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.cart-btn{
+    display: inline-block;
+    background-color: tan;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 25px;
+    transition: background 0.5s;
+}
+.cart-btn:hover{
+    background-color: rgb(122, 55, 21);
+}
+
+@media screen and (max-width: 768px){
+    /* ----- @media intro ----- */
+    nav ul{
+        position: absolute;
+        top: 90px;
+        right: 0;
+        background: rgb(53, 52, 52, 0.5);
+        border-radius: 15px;
+        width: 60%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index: 1;
+    }
+    nav ul li{
+        display: block;
+        margin: 10px 50px 10px 0;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    #toggle{
+        visibility: visible;
+        cursor: pointer;
+        padding-left: 15px;
+    }
+    .intro-cmt{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    /* ----- @media product detail ----- */
+    .detail-row{
+        text-align: center;
+    }
+    .detail-col{
+        flex-basis: 100%;
+    }
+    .container-detail .detail-row{
+        text-align: left;
+    }
+    .container-detail .detail-col{
+        padding: 20px 0;
+    }
+    .container-detail h1{
+        font-size: 26px;
+        line-height: 22px;
+    }
+
+    /* ----- @media account ----- */
+    .account-col{
+        flex-basis: 100%;
+        padding-bottom: 50px;
+    }
+    .account-col img{
+        display: none;
+    }
+}

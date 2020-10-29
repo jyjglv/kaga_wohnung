@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./kagashop_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/67f5a57d7c.js" crossorigin="anonymous"></script>
+    <script src="./script_kagashop.js" defer></script>
+    <title>Your Account</title>
+</head>
+<body>
+    <!-- ------------------menu&account------------------ -->
+    <div class="account-header">    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index_kagashop.html"><i class="fas fa-headphones-alt"></i> Kaga Shop</a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="./index_kagashop.html">Home</a></li>
+                        <li><a href="./product_kagashop.html">Products</a></li>
+                        <li><a href="./account_kagashop.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="../index.html"><img src="./img/index/icon_home.png" width="40px"></a>
+                <img src="./img/index/icon_cart.png" width="40px">
+                <i class="fas fa-bars" id="toggle" onclick="menutoggle()"></i>
+            </div>
+            <div class="account-row">
+                <div class="account-col">
+                    <img src="./img/index/account.svg" width="100%">
+                </div>
+                <div class="account-col">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="Loginform">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="#">Forgot Password</a>
+                        </form>
+                        <form id="Regform">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------brands------------------ -->
+    <div class="brands">
+        <div class="brands-con">
+            <div class="brands-row">
+                <img src="./img/index/logo_sennheiser.png">
+            </div>
+            <div class="brands-row">
+                <img src="./img/index/logo_etymotic.png">
+            </div>
+            <div class="brands-row">
+                <img src="./img/index/logo_beyerdynamic.png">
+            </div>
+            <div class="brands-row">
+                <img src="./img/index/logo_shure.jpg">
+            </div>
+            <div class="brands-row">
+                <img src="./img/index/logo_final.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- ------------------footer------------------ -->
+    <div class="footer">
+        <div class="footer-con">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h3>Download Our App</h3>
+                    <div class="app-logo">
+                        <img src="./img/index/footer_googleplay.png" width="150px">
+                        <img src="./img/index/footer_appstore.png" width="150px">
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow us</h3>
+                    <h>Instagram <i class="fab fa-instagram"></i></h><br>
+                    <h>Twitter <i class="fab fa-twitter"></i></h>
+                </div>
+            </div>
+            <br><hr><br>
+            <p class="copyright">Copyright 2020 - Kaga Yoon</p>
+        </div>
+    </div>
+</body>
+</html>

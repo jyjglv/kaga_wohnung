@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_kagalog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/67f5a57d7c.js" crossorigin="anonymous"></script>
+    <script src="./script_kagalog.js" defer></script>
+    <title>Kagalog List</title>
+</head>
+<body>
+    <!-- ------------------menu------------------ -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./index_kagalog.html"><i class="far fa-newspaper"></i> Kagalog</a>
+        </div>
+        <ul class="menu">
+            <li><a href="./index_kagalog.html">Home</a></li>
+            <li><a href="./list_kagalog.html">Posting List</a></li>
+            <li><a href="./comments_kagalog.html">Comments</a></li>
+
+            <li><a href="../index.html"><i class="fas fa-home"></i></a></li>
+        </ul>
+        <a href="#" class="toggle">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+    <!-- ------------------comment------------------ -->
+    <h1 class="comment_title">Comments</h1>
+    <div class="com-intro">Please write your suggestion freely. <br> Like any topics, review and so on.</div>
+
+    <div class="comments">
+        <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://kagalog.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    <!-- ------------------footer------------------ -->
+    <div class="footer">
+        <div class="footer-con">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h3>Download Our App</h3>
+                    <div class="app-logo">
+                        <img src="./img/footer_googleplay.png" width="150px">
+                        <img src="./img/footer_appstore.png" width="150px">
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow us</h3>
+                    <h>Instagram <i class="fab fa-instagram"></i></h><br>
+                    <h>Twitter <i class="fab fa-twitter"></i></h>
+                </div>
+            </div>
+            <br><hr>
+            <p class="copyright">Copyright 2020 - Kaga Yoon</p>
+        </div>
+    </div>
+</body>
+</html>

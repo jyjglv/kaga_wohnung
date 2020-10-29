@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/index/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+/* ------------------- menu ------------------- */
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.logo-char{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 10px;
+    letter-spacing: 8px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.nav-link{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav-link li{
+    display: inline-block;
+    margin-left: 60px;
+}
+.nav-link li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    visibility: hidden;
+    align-items: center;
+}
+.page-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.page-top img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-right: 30px;
+}
+.page-top h2{
+    color: #fff;
+    font-size: 40px;
+}
+/* ------------------- index ------------------- */
+.hidIntro{
+    display: none;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.row{
+    display: inline-flex;
+    height: 88%;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+    .card1{background-image: url(img/index/index_photo.jpg);}
+    .card2{background-image: url(img/index/index_video.png);}
+    .card3{background-image: url(img/index/index_training2.jpg);}
+    .card4{background-image: url(img/index/index_comment.jpg);}
+h5{
+    color: rgb(20, 18, 18);
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 5px #999;
+    font-size: 10px;
+}
+/* ------------------- photo ------------------- */
+.photo-row{
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.pic{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.pic:hover{
+    transform: translateY(-10px);
+}
+    .pic1{background-image: url(img/photo/wicky\ \(1\).jpg);}
+    .pic2{background-image: url(img/photo/wicky\ \(2\).jpg);}
+    .pic3{background-image: url(img/photo/wicky\ \(3\).jpg);}
+    .pic4{background-image: url(img/photo/wicky\ \(4\).jpg);}
+    .pic5{background-image: url(img/photo/wicky\ \(5\).jpg);}
+    .pic6{background-image: url(img/photo/wicky\ \(6\).jpg);}
+    .pic7{background-image: url(img/photo/wicky\ \(7\).jpg);}
+    .pic8{background-image: url(img/photo/wicky\ \(8\).jpg);}
+    .pic9{background-image: url(img/photo/wicky\ \(9\).jpg);}
+    .pic10{background-image: url(img/photo/wicky\ \(10\).jpg);}
+    .pic11{background-image: url(img/photo/wicky\ \(11\).jpg);}
+    .pic12{background-image: url(img/photo/wicky\ \(12\).jpg);}
+    .pic13{background-image: url(img/photo/wicky\ \(13\).jpg);}
+    .pic14{background-image: url(img/photo/wicky\ \(14\).jpg);}
+    .pic15{background-image: url(img/photo/wicky\ \(15\).jpg);}
+    .pic16{background-image: url(img/photo/wicky\ \(16\).jpg);}
+    .pic17{background-image: url(img/photo/wicky\ \(17\).jpg);}
+    .pic18{background-image: url(img/photo/wicky\ \(18\).jpg);}
+    .pic19{background-image: url(img/photo/wicky\ \(19\).jpg);}
+    .pic20{background-image: url(img/photo/wicky\ \(20\).jpg);}
+    .pic21{background-image: url(img/photo/wicky\ \(21\).jpg);}
+    .pic22{background-image: url(img/photo/wicky\ \(22\).jpg);}
+    .pic23{background-image: url(img/photo/wicky\ \(23\).jpg);}
+    .pic24{background-image: url(img/photo/wicky\ \(24\).jpg);}
+    .pic25{background-image: url(img/photo/wicky\ \(25\).jpg);}
+    .pic26{background-image: url(img/photo/wicky\ \(26\).jpg);}
+
+.desc{
+    text-align: center;
+    padding: 10px;;
+}
+.desc:hover{
+    color: white;
+}
+/* -----------------video----------------- */
+.videos{    
+    border-radius: 20px;
+}
+.video-con{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+.video-con iframe{
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+/* -----------------training----------------- */
+.train-point{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.train-point p{
+    font-size: 16px;
+    line-height: 40px;
+}
+.train-point h3{
+    color: #fff;
+    font-size: 30px;
+}
+.train-row{
+    display: flex;
+    padding-bottom: 40px;
+}
+.train-row h3{
+    color: #fff;
+    font-size: 30px;
+}
+.train-row p{
+    font-size: 14px;
+    line-height: 40px;
+}
+.train-col{
+    flex-basis: 50%;
+}
+.train-col img{
+    width: 35%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+/* -----------------comments----------------- */
+.comment{
+    padding-bottom: 50px;
+}
+.con-comment{
+    background: rgba(29,33,61,0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+.con-comment h3{
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+}
+#disqus_thread{
+    padding-bottom: 10px;
+}
+/* ------------------- footer ------------------- */
+.footer{
+    background: rgba(29,33,61,0.5);
+    color: white;
+}
+.footer-con{
+    padding: 30px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col h3{
+    padding: 10px 0 20px 0;
+}
+.copyright{
+    text-align: right;
+}
+
+
+@media screen and (max-width : 748px){
+    /* -------------menu-------------- */
+    .hidIntro{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .navbar{
+        padding: 20px 0 20px 0;
+    }
+    .nav-link{
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: rgb(46, 46, 46, 0.8);
+        width: 50%;
+        overflow: hidden;
+        transition: max-height 0.7s;
+        border-radius: 10px;
+    }
+    .nav-link li{
+        display: block;
+        margin: 50px 30px 50px 0;
+        
+    }
+    .menu-icon{
+        visibility: visible;
+    }    
+    /* -------------index-------------- */
+    .col:nth-child(2){
+        display: none;
+    }
+    .row{
+        display: inline-flex;
+        align-items: center;
+        padding-bottom: 60px;
+    }    
+    .card{
+        width: 38%;
+    }
+    .col{
+        flex-basis: 100%;
+    }
+    /* -------------photo-------------- */
+    .photo-col{
+        flex-basis: 100%;
+    }
+    .pic{
+        width: 38%;
+        height: 160px;
+    }
+    /* -------------training-------------- */
+    .train-point p{
+        font-size: 14px;
+        line-height: 40px;
+    }    
+    .train-col{
+        flex-basis: 100%;
+    }
+    .train-row p{
+        font-size: 14px;
+        line-height: 40px;
+    }    
+    .train-row{
+        display: block;
+    }
+}
